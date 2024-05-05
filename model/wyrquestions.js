@@ -29,6 +29,7 @@ function randomWYRQuestion() {
     const randomIndex = Math.floor(Math.random() * questions.length)
     const randomQuestion = questions[randomIndex]
     return randomQuestion
+    //returns a random question on the page when the server runs
 }
 
 
